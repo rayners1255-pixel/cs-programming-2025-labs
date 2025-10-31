@@ -54,7 +54,7 @@ def Zad7Lab3():
     str0 = ""
     for i in range(len(inp0)):
         str0 = str0 + str(inp0[i])
-        str0 = str0 + str(i+1)
+        str0 = str0 + str(i +1)
     print(str0)
 # Zad7Lab3()
 
@@ -65,4 +65,4 @@ def Zad8Lab3():
         inp0 = sum([int(i) for i in input("Vod with space: ").split()])
         print(inp0)
 
-Zad8Lab3()
+# Zad8Lab3()
