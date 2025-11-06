@@ -143,8 +143,22 @@ def Lab4Zad9():
 # Lab4Zad9()
 
 
-Lab4Zad10()
+def Lab4Zad10():
+    inp0 = int(input("Vod: "))
+    allDelit = 0
+    specialDelit = 0
+    for i in range(1,inp0+1):
+        if inp0%i == 0:
+            allDelit+=1
+            if (i == inp0) or (i == 1):
+                specialDelit+=1
 
+    if (specialDelit == 2) and (allDelit==2):
+        print(f"{inp0} - простое")
+    else:
+        print("Неа")
+
+# Lab4Zad10()
 
 
 
