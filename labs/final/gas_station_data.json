@@ -1,0 +1,129 @@
+{
+  "cisterns": {
+    "АИ-92 №1": {
+      "name": "АИ-92 №1",
+      "fuel_type": "АИ-92",
+      "max_volume": 20000,
+      "current_volume": 10000.0,
+      "enabled": true,
+      "min_level": 2000.0
+    },
+    "АИ-95 №1": {
+      "name": "АИ-95 №1",
+      "fuel_type": "АИ-95",
+      "max_volume": 20000,
+      "current_volume": 10000.0,
+      "enabled": true,
+      "min_level": 2000.0
+    },
+    "АИ-95 №2": {
+      "name": "АИ-95 №2",
+      "fuel_type": "АИ-95",
+      "max_volume": 20000,
+      "current_volume": 10000.0,
+      "enabled": true,
+      "min_level": 2000.0
+    },
+    "АИ-98 №1": {
+      "name": "АИ-98 №1",
+      "fuel_type": "АИ-98",
+      "max_volume": 15000,
+      "current_volume": 7500.0,
+      "enabled": true,
+      "min_level": 1500.0
+    },
+    "ДТ №1": {
+      "name": "ДТ №1",
+      "fuel_type": "ДТ",
+      "max_volume": 25000,
+      "current_volume": 12500.0,
+      "enabled": true,
+      "min_level": 2500.0
+    }
+  },
+  "stats": {
+    "total_income": 1150.0,
+    "cars_served": 1,
+    "fuel_stats": {
+      "АИ-92": {
+        "liters": 20.0,
+        "income": 1150.0,
+        "transactions": 1
+      },
+      "АИ-95": {
+        "liters": 0.0,
+        "income": 0.0,
+        "transactions": 0
+      },
+      "АИ-98": {
+        "liters": 0.0,
+        "income": 0.0,
+        "transactions": 0
+      },
+      "ДТ": {
+        "liters": 0.0,
+        "income": 0.0,
+        "transactions": 0
+      }
+    },
+    "transactions": [
+      {
+        "timestamp": "2026-01-22T18:19:34.069740",
+        "type": "sale",
+        "details": "Продажа 20.0 л АИ-92 на колонке 1 за 1150.00 ₽",
+        "amount": 20.0,
+        "fuel_type": "АИ-92"
+      },
+      {
+        "timestamp": "2026-01-22T18:21:15.093664",
+        "type": "refuel",
+        "details": "Пополнение цистерны АИ-92 №1 на 20.0 л",
+        "amount": 20.0,
+        "fuel_type": "АИ-92"
+      },
+      {
+        "timestamp": "2026-01-22T18:22:00.177723",
+        "type": "emergency",
+        "details": "АКТИВАЦИЯ АВАРИЙНОГО РЕЖИМА",
+        "amount": 0,
+        "fuel_type": null
+      },
+      {
+        "timestamp": "2026-01-22T18:23:28.073684",
+        "type": "cistern_toggle",
+        "details": "Включение цистерны АИ-92 №1",
+        "amount": 0,
+        "fuel_type": null
+      },
+      {
+        "timestamp": "2026-01-22T22:20:41.914441",
+        "type": "cistern_toggle",
+        "details": "Включение цистерны АИ-95 №1",
+        "amount": 0,
+        "fuel_type": null
+      },
+      {
+        "timestamp": "2026-01-22T22:22:04.929480",
+        "type": "cistern_toggle",
+        "details": "Включение цистерны АИ-95 №2",
+        "amount": 0,
+        "fuel_type": null
+      },
+      {
+        "timestamp": "2026-01-22T22:22:13.886963",
+        "type": "cistern_toggle",
+        "details": "Включение цистерны АИ-98 №1",
+        "amount": 0,
+        "fuel_type": null
+      },
+      {
+        "timestamp": "2026-01-22T22:22:26.077097",
+        "type": "cistern_toggle",
+        "details": "Включение цистерны ДТ №1",
+        "amount": 0,
+        "fuel_type": null
+      }
+    ]
+  },
+  "emergency_mode": false
+}
