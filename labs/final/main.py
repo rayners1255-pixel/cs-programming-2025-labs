@@ -3,9 +3,8 @@ import datetime
 import os
 from typing import Dict, List, Optional, Tuple
 
-# =============================================
+
 # КОНСТАНТЫ И НАСТРОЙКИ
-# =============================================
 DATA_FILE = "gas_station_data.json"
 FUEL_TYPES = ["АИ-92", "АИ-95", "АИ-98", "ДТ"]
 FUEL_PRICES = {
@@ -37,9 +36,9 @@ CISTERN_MAX_VOLUMES = {
 MIN_LEVEL_PERCENT = 10
 
 
-# =============================================
+
 # КЛАССЫ ДЛЯ ХРАНЕНИЯ ДАННЫХ
-# =============================================
+
 class Cistern:
     def __init__(self, name: str, fuel_type: str, max_volume: float, current_volume: float = None):
         self.name = name
@@ -289,9 +288,9 @@ class GasStation:
             return False
 
 
-# =============================================
+
 # ФУНКЦИИ ДЛЯ РАБОТЫ С МЕНЮ
-# =============================================
+
 def clear_screen():
     """Очищает экран консоли"""
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -822,9 +821,9 @@ def emergency_procedure(station: GasStation):
     wait_for_enter()
 
 
-# =============================================
+
 # ГЛАВНАЯ ФУНКЦИЯ
-# =============================================
+
 def main():
     """Главная функция программы"""
     # Создаем АЗС

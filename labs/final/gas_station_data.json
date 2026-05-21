@@ -4,7 +4,7 @@
       "name": "АИ-92 №1",
       "fuel_type": "АИ-92",
       "max_volume": 20000,
-      "current_volume": 10000.0,
+      "current_volume": 9990.0,
       "enabled": true,
       "min_level": 2000.0
     },
@@ -12,7 +12,7 @@
       "name": "АИ-95 №1",
       "fuel_type": "АИ-95",
       "max_volume": 20000,
-      "current_volume": 10000.0,
+      "current_volume": 9995.0,
       "enabled": true,
       "min_level": 2000.0
     },
@@ -20,7 +20,7 @@
       "name": "АИ-95 №2",
       "fuel_type": "АИ-95",
       "max_volume": 20000,
-      "current_volume": 10000.0,
+      "current_volume": 9990.0,
       "enabled": true,
       "min_level": 2000.0
     },
@@ -28,7 +28,7 @@
       "name": "АИ-98 №1",
       "fuel_type": "АИ-98",
       "max_volume": 15000,
-      "current_volume": 7500.0,
+      "current_volume": 8000.0,
       "enabled": true,
       "min_level": 1500.0
     },
@@ -36,24 +36,24 @@
       "name": "ДТ №1",
       "fuel_type": "ДТ",
       "max_volume": 25000,
-      "current_volume": 12500.0,
-      "enabled": true,
+      "current_volume": 25000.0,
+      "enabled": false,
       "min_level": 2500.0
     }
   },
   "stats": {
-    "total_income": 1150.0,
-    "cars_served": 1,
+    "total_income": 3849.1,
+    "cars_served": 6,
     "fuel_stats": {
       "АИ-92": {
-        "liters": 20.0,
-        "income": 1150.0,
-        "transactions": 1
+        "liters": 30.0,
+        "income": 1725.0,
+        "transactions": 2
       },
       "АИ-95": {
-        "liters": 0.0,
-        "income": 0.0,
-        "transactions": 0
+        "liters": 15.0,
+        "income": 874.5,
+        "transactions": 2
       },
       "АИ-98": {
         "liters": 0.0,
@@ -61,9 +61,9 @@
         "transactions": 0
       },
       "ДТ": {
-        "liters": 0.0,
-        "income": 0.0,
-        "transactions": 0
+        "liters": 22.0,
+        "income": 1249.6,
+        "transactions": 2
       }
     },
     "transactions": [
@@ -120,6 +120,69 @@
         "timestamp": "2026-01-22T22:22:26.077097",
         "type": "cistern_toggle",
         "details": "Включение цистерны ДТ №1",
+        "amount": 0,
+        "fuel_type": null
+      },
+      {
+        "timestamp": "2026-01-23T13:48:36.476378",
+        "type": "sale",
+        "details": "Продажа 12.0 л ДТ на колонке 8 за 681.60 ₽",
+        "amount": 12.0,
+        "fuel_type": "ДТ"
+      },
+      {
+        "timestamp": "2026-01-27T12:14:21.540163",
+        "type": "sale",
+        "details": "Продажа 10.0 л ДТ на колонке 7 за 568.00 ₽",
+        "amount": 10.0,
+        "fuel_type": "ДТ"
+      },
+      {
+        "timestamp": "2026-01-27T12:16:19.271682",
+        "type": "refuel",
+        "details": "Пополнение цистерны ДТ №1 на 12522.0 л",
+        "amount": 12522.0,
+        "fuel_type": "ДТ"
+      },
+      {
+        "timestamp": "2026-01-27T12:18:59.778515",
+        "type": "sale",
+        "details": "Продажа 10.0 л АИ-92 на колонке 1 за 575.00 ₽",
+        "amount": 10.0,
+        "fuel_type": "АИ-92"
+      },
+      {
+        "timestamp": "2026-01-27T12:20:18.683518",
+        "type": "sale",
+        "details": "Продажа 10.0 л АИ-95 на колонке 1 за 583.00 ₽",
+        "amount": 10.0,
+        "fuel_type": "АИ-95"
+      },
+      {
+        "timestamp": "2026-01-27T12:21:15.154871",
+        "type": "transfer",
+        "details": "Перекачка 10.0 л АИ-95 из АИ-95 №2 в АИ-95 №1",
+        "amount": 10.0,
+        "fuel_type": "АИ-95"
+      },
+      {
+        "timestamp": "2026-01-27T12:36:14.677885",
+        "type": "refuel",
+        "details": "Пополнение цистерны АИ-98 №1 на 500.0 л",
+        "amount": 500.0,
+        "fuel_type": "АИ-98"
+      },
+      {
+        "timestamp": "2026-01-27T12:58:04.394321",
+        "type": "sale",
+        "details": "Продажа 5.0 л АИ-95 на колонке 1 за 291.50 ₽",
+        "amount": 5.0,
+        "fuel_type": "АИ-95"
+      },
+      {
+        "timestamp": "2026-01-27T12:58:50.591079",
+        "type": "cistern_toggle",
+        "details": "Отключение цистерны ДТ №1",
         "amount": 0,
         "fuel_type": null
       }
